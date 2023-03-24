@@ -77,6 +77,7 @@ public class mainBuku {
                 break;
 
                 case 2:
+                System.out.println("Berikut data buku-buku sejarah yang sudah disalin:");
                 Book sejarah1 = new Book("Jejak Mataram Islam","Wiratna","Gramedia",2008,"Kerajaan Islam memiliki banyak peninggalan sejarah, salah satunya di Mataram.");
                 sejarah1.bookCopy();
 
@@ -94,6 +95,7 @@ public class mainBuku {
                 break;
 
                 case 3:
+                System.out.println("Berikut data buku-buku psikologi yang sudah disalin:");
                 Book psikologi1 = new Book("Psikologi Belajar","Afi Parnawi","Gramedia",2019,"Psikologi belajar adalah sebuah disiplin (cabang ilmu) psikologi yang berisi teori-teori psikologis mengenai belajar.");
                 psikologi1.bookCopy();
 
@@ -111,6 +113,7 @@ public class mainBuku {
                 break;
 
                 case 4:
+                System.out.println("Berikut data buku-buku filsafat yang sudah disalin:");
                 Book filsafat1 = new Book("Studi Dasar Filsafat","Tazkiyah Basa’ad","Gramedia",2018,"Filsafat mempunyai sejarah yang panjang, filsafat lebih tua daripada semua ilmu. ");
                 filsafat1.bookCopy();
 
@@ -128,6 +131,7 @@ public class mainBuku {
                 break;
 
                 case 5:
+                System.out.println("Berikut data buku-buku fiksi yang sudah disalin:");
                 Book fiksi1 = new Book("Imperfect","Meira Anastasia","Gramedia",2018,"Berkisah mengenai Rara yang terlahir dengan gen gemuk dan kulit sawo matang, warisan sang ayah.");
                 fiksi1.bookCopy();
 
